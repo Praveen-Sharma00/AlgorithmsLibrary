@@ -30,3 +30,13 @@ VectorInt ListFactors(int n){
     sort(factors.begin(),factors.end());
     return factors;
 }
+
+String DecimalToBinary(int n){
+    String binary="";
+    while(n>0){
+        binary+=to_string(n%2);
+        n/=2;
+    }
+    reverse(binary.begin(),binary.end());
+    return binary;
+}

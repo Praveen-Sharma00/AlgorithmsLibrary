@@ -5,10 +5,9 @@
 
 int main(){
 
-    // VectorInt v{-98,-1,8,0,4,48};
-    // SelectionSort(v);
-    VectorInt v=ListFactors(36);
-    Print(v);
-    // Print(v);
+    
+    String binary=DecimalToBinary(4);
+    cout<<binary;
+    
     return 0;
 }
