@@ -7,7 +7,8 @@ int main(){
 
     // VectorInt v{-98,-1,8,0,4,48};
     // SelectionSort(v);
-    sieve(15);
+    VectorInt v=ListFactors(36);
+    Print(v);
     // Print(v);
     return 0;
 }
