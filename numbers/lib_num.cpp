@@ -2,6 +2,7 @@
 #include "lib_num.hpp"
 #include <cmath>
 #include <algorithm>
+
 void sieve(int n){
     VectorBool primes(n+1,true);
     for(int p=2;p*p<=n;p++){
