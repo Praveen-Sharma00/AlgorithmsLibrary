@@ -40,3 +40,9 @@ String DecimalToBinary(int n){
     reverse(binary.begin(),binary.end());
     return binary;
 }
+
+int gcd(int a,int b){
+    if(a==b || a==0)
+        return a;
+    return gcd(b%a,a);
+}
