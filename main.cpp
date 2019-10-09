@@ -5,9 +5,10 @@
 
 int main(){
 
-    
-    String binary=DecimalToBinary(4);
-    cout<<binary;
-    
+    VectorInt v{7,-1,-2,8,10,0};
+    // String binary=DecimalToBinary(4);
+    // cout<<binary;
+    MergeSort(v,0,v.size());
+    Print(v);
     return 0;
 }
